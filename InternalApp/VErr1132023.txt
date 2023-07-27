@@ -1,0 +1,45 @@
+Error Date : 11-03-2023 11:53:23 
+Caller Details: InternalApp.datasource: admin_info 
+Caller Data: APT_StaffLookup -- MobileNumber: 1234567891,  
+Error Message : Keyword not supported: 'convert zero datetime'. 
+StackTrace :    at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   at VDAL.VDALSQL.GetDataSet(SqlCommand pCommand, String SPName) 
+---------------------------------------------------------------------------------------------------------------- 
+
+Error Date : 11-03-2023 11:55:30 
+Caller Details: InternalApp.datasource: admin_info 
+Caller Data: APT_StaffLookup -- MobileNumber: 1234567891, admrefid: 1,  
+Error Message : Keyword not supported: 'convert zero datetime'. 
+StackTrace :    at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   at VDAL.VDALSQL.GetDataSet(SqlCommand pCommand, String SPName) 
+---------------------------------------------------------------------------------------------------------------- 
+
+Error Date : 11-03-2023 11:56:06 
+Caller Details: InternalApp.datasource: admin_info 
+Caller Data: APT_StaffLookup -- MobileNumber: 1234567891, admrefid: 1,  
+Error Message : Keyword not supported: 'convert zero datetime'. 
+StackTrace :    at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   at VDAL.VDALSQL.GetDataSet(SqlCommand pCommand, String SPName) 
+---------------------------------------------------------------------------------------------------------------- 
+

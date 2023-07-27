@@ -1,0 +1,74 @@
+.timepicker_wrap {
+    top: 45px;
+    right:0;
+    display: none;
+    position: absolute;    
+    border-radius: 5px;
+    z-index: 9;
+    background: #fff;
+    box-shadow:0 0 4px #bbb;
+    border: 1px solid #bbb;
+}
+.timepicker_wrap:after, .timepicker_wrap:before {
+	bottom: 100%;
+	right:15px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.timepicker_wrap:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #fff;
+	border-width: 6px;
+	margin-left: -6px;
+}
+.timepicker_wrap:before {
+	border-color: rgba(187, 187, 187, 0);
+	border-bottom-color: #bbb;
+	border-width: 7px;
+	margin-left: -7px;
+}
+
+.hour,
+.min,
+.meridian,
+.sec {
+    float: left;
+    width: 30px;
+    margin: 0 10px;
+}
+
+.timepicker_wrap .btn {
+    background: url(../img/sprite.png) no-repeat;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    margin: auto;
+    padding:0;
+    box-shadow:none;
+}
+
+.timepicker_wrap .prev {
+    background-position:-139px -354px;
+}
+
+.timepicker_wrap .next {
+    background-position:-138px -334px;
+}
+
+.timepicker_wrap .ti_tx {
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.timepicker_wrap .in_txt {    
+    width:100%;
+    text-align: center;
+    font:16px "Muli-Regular";
+    border:0;
+}

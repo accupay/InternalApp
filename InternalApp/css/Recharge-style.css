@@ -1,0 +1,1044 @@
+/*============================
+     Mobile Recharging
+=============================*/
+.error-mssg 
+{
+    color: #ff0000;
+    font-size: 15px;
+    font-family: 'Muli-Regular';
+    font-weight: 500;
+}
+.mobile-recharging
+{
+ /*padding:50px 40px;*/
+ display:inline-block;
+ width:100%;
+}
+.mobile-recharging .online-recharge h3.title
+{
+ font-family: 'Muli-ExtraBold';
+}
+.mobile-recharging .warning-message
+{
+ /*background-color:#eafffc;
+ border:1px solid #1bc0a7;*/
+ border-radius:3px;
+ margin-top:35px;
+ box-shadow: 4px 4px 2px 2px rgba(119, 13, 13, 0.11), 4px 4px 4px 4px rgba(45, 39, 197, 0.24);
+}
+.mobile-recharging .warning-message .title h3
+{
+ color: #1bc0a7;
+ padding: 15px 20px;
+ font-size: 18px;
+ border-bottom: 1px solid #b6efe7;
+ font-family: 'Muli-Bold';
+}
+.mobile-recharging .warning-message .title h3 span
+{
+ color:#2ac4ad;
+}
+.mobile-recharging .warning-message .content
+{
+ padding:20px;
+}
+.mobile-recharging .warning-message p
+{
+ border-bottom:1px solid #b6efe7;
+ padding:10px 0px;
+ font-family: 'Muli-Regular';
+}
+.mobile-recharging .warning-message p span
+{
+  font-family: 'Muli-Bold';
+}
+.mobile-recharging .warning-message p:last-child span
+{
+  font-family: 'Muli-Bold';
+  color:#000;
+}
+.mobile-recharging .warning-message p:last-child
+{
+ border-bottom:none;
+}
+.mobile-recharging-options
+{
+ box-shadow: 4px 4px 2px 2px rgba(119, 13, 13, 0.11), 4px 4px 4px 4px rgba(45, 39, 197, 0.24);
+ padding   : 30px;
+ overflow-y: auto;
+ overflow-x: hidden;
+ min-height: 354px;
+}
+.mobile-recharging .online-recharge
+{
+ display:inline-block;
+ width:100%;
+ margin-bottom:20px;
+}
+.mobile-recharging-options .rechargeForm a
+{
+ border: 1px solid #d9d9d9;
+ color: #000;
+ background-color: transparent !important;
+ margin-right: 20px;
+ padding: 8px 50px;
+ border-radius: 5px !important;
+ font-size: 16px;
+/* font-family: 'Muli-Regular';*/
+}
+.mobile-recharging-options .rechargeForm .btnJustify a.btnJustifyActive
+{
+ background-color:#4162f1 !important;
+ border: 1px solid #4162f1;
+ color: #fff;
+ border-color: #4162f1 !important;
+}
+.mobile-recharging-options .rechargeForm a:hover, .mobile-recharging-options .rechargeForm a:hover, .mobile-recharging-options .rechargeForm a:active
+{
+ background-color:#4162f1 !important;
+ border: 1px solid #4162f1;
+ color: #fff;
+ border-color: #4162f1 !important;
+}
+.rechargeForm .mobilerecharge-submit
+{
+ margin-top:20px;
+}
+.mobile-recharging-options .rechargeForm .select-label
+{
+ color:#999999;
+ font-family: 'Muli-Regular';
+}
+.mobile-recharging-options .rechargeForm .select-text
+{
+ color:#000;
+ font-family: 'Muli-Regular';
+}
+.mobile-recharging-options .rechargeForm .mobilerecharge-submit button
+{
+ border-radius: 5px;
+ padding: 10px 35px !important;
+}
+.mobile-recharging-options .rechargeForm
+{
+ display: inline-block;
+ margin-top: 15px;
+ width:100%;
+}
+.box.browsing-plans
+{
+ margin-top:25px;
+ margin-left: 30px;
+ display: inline-block;
+ width: 96%;
+ box-shadow: 4px 4px 2px 2px rgba(119, 13, 13, 0.11), 4px 4px 4px 4px rgba(45, 39, 197, 0.24);
+}
+.box.browsing-plans .box-heading
+{
+ background-color:#4162f1;
+ color:#fff;
+ padding:15px 20px;
+ margin-bottom: 30px;
+}
+.box.browsing-plans .box-heading h3
+{
+ font-size:18px;
+ font-family: 'Muli-Bold';
+}
+.mobile-recharging .box.browsing-plans .searching-section .magnifying-glass
+{
+ position: absolute;
+ right: 24px;
+ top: 15px;
+}
+.mobile-recharging .box.browsing-plans .btnJustify
+{
+ margin-bottom:0px;
+}
+.browsing-plans .box-content .tabs-section .btn-group.btn-group-justified a.btn-primary
+{
+ background-color: #eafffc;
+ color: #999999;
+ padding: 15px;
+ font-size: 13px;
+ font-family: 'Muli-Regular';
+ border: 2px solid #eafffc;
+}
+.browsing-plans .box-content .tabs-section .btn-group.btn-group-justified  a.btnJustifyActive
+{
+ border: none;
+ border-bottom: 2px solid #1bc0a7;
+ color: #000 !important;
+ background-color: #eafffc !important;
+}
+.browsing-plans .box-content .tabs-section .btn-group.btn-group-justified a.btn-primary:hover, .browsing-plans .box-content .tabs-section .btn-group.btn-group-justified a.btn-primary:focus
+{
+ border: none;
+ border-bottom: 2px solid #1bc0a7;
+ color: #000 !important;
+ background-color: #eafffc !important;
+}
+.browsing-plans .box-content .tabs-section .btn-group.btn-group-justified a.btn-primary:active
+{
+ box-shadow:none;
+}
+.browsing-plans .box-content .tabs-section .tab-content
+{
+ display: inline-block;
+ border: 1px solid #ebebeb;
+ border-top: none;
+ padding: 0 25px 0 25px;
+ margin-bottom: 30px;
+ max-height: 530px;
+ overflow-y: scroll;
+}
+.browsing-plans .box-content .tabs-section .tab-content .row
+{
+ float:none;
+ margin:0px;
+}
+.browsing-plans .box-content .tabs-section .tab-content .recharge-details
+{
+ display:inline-block;
+ width:100%;
+ float:none;
+}
+.browsing-plans .box-content .tabs-section .tab-content .recharge-details table
+{
+ width:100%;
+}
+.browsing-plans .box-content .tabs-section .tab-content .recharge-details table tr td
+{
+ padding:20px 10px;
+}
+.browsing-plans .box-content .tabs-section .tab-content .recharge-details table tr
+{
+ border-bottom:1px solid #e5e5e5;
+}
+.browsing-plans .box-content .tabs-section .tab-content .recharge-details table tr:last-child
+{
+ border-bottom:none;
+}
+.browsing-plans .box-content .tabs-section .tab-content .recharge-details table tr td.days span
+{
+ font-family: 'Muli-SemiBold';
+ font-size: 20px;
+}
+.browsing-plans .box-content .tabs-section .tab-content .recharge-details table tr td.money 
+{
+ font-family: 'Muli-SemiBold';
+ text-align:right;
+}
+.browsing-plans .box-content .tabs-section .tab-content .recharge-details table tr td.days
+{
+ font-family: 'Muli', sans-serif;
+}
+.browsing-plans .box-content .tabs-section .tab-content .recharge-details table tr td.recharge-cost
+{
+ font-family: 'Muli-Regular';
+ font-size: 16px;
+ text-align:center;
+}
+.browsing-plans .box-content .tabs-section .tab-content .recharge-details table tr td.money a
+{
+ color: #1bc0a7;
+ border: 1px solid #1bc0a7;
+ padding: 7px 20px;
+ border-radius: 5px;
+}
+.browsing-plans .box-content .tabs-section .tab-content .recharge-details table tr td.money a:hover
+{
+ background-color:#1bc0a7;
+ color:#fff;
+ border:1px solid #1bc0a7;
+}
+.browsing-plans .box-content .tabs-section .col-xs-12.plr-4
+{
+ padding:0px;
+}
+/*============================
+     Mobile Recharging
+=============================*/
+
+
+/* Floating Selectbox sytle*/
+/**************************/
+.body {
+  position: relative;
+}
+
+.wrap {
+  position: absolute;
+  right: 0;
+  top: 40%;
+  width: 350px;
+  left: 0;
+  margin: 0 auto;
+}
+
+/* select starting stylings ------------------------------*/
+.select {
+ 
+	position: relative;
+	width: 350px;
+}
+.select-text {
+	position: relative;
+	font-family: 'Muli-Regular';
+	background-color: transparent;
+	width: 100%;
+    /*width: 220px;*/
+	padding: 10px 10px 10px 0;
+	font-size: 18px;
+	border-radius: 0;
+	border: none;
+	border-bottom: 1px solid rgba(0,0,0, 0.12);
+}
+
+/* Remove focus */
+.select-text:focus {
+	outline: none;
+	border-bottom: 1px solid rgba(0,0,0, 0);
+}
+
+	/* Use custom arrow */
+.select .select-text {
+	appearance: none;
+	-webkit-appearance:none
+}
+
+.select:after {
+	position: absolute;
+	top: 18px;
+	right: 10px;
+	/* Styling the down arrow */
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid rgba(0, 0, 0, 0.12);
+	pointer-events: none;
+}
+
+
+/* LABEL ======================================= */
+.select-label {
+	color: rgba(0,0,0, 0.26);
+	font-size: 18px;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	/*left: 0;*/
+	top: 10px;
+	transition: 0.2s ease all;
+}
+
+/* active state */
+.select-text:focus ~ .select-label, .select-text:valid ~ .select-label {
+	color: #2F80ED;
+	top: -20px;
+    /*left: 5px;*/
+	transition: 0.2s ease all;
+	font-size: 14px;
+}
+
+/* BOTTOM BARS ================================= */
+.select-bar {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.select-bar:before, .select-bar:after {
+	content: '';
+	height: 2px;
+	width: 0;
+	bottom: 1px;
+	position: absolute;
+	background: #2F80ED;
+	transition: 0.2s ease all;
+}
+
+.select-bar:before {
+	left: 50%;
+}
+
+.select-bar:after {
+	right: 50%;
+}
+
+/* active state */
+.select-text:focus ~ .select-bar:before, .select-text:focus ~ .select-bar:after {
+	width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.select-highlight {
+	position: absolute;
+	height: 60%;
+	width: 100px;
+	top: 25%;
+	left: 0;
+	pointer-events: none;
+	opacity: 0.5;
+}
+.body_content {
+  position: relative;
+  margin-top: 50px;
+  padding: 20px;
+  max-height: 500px;
+  background: #ddd;
+}
+
+/*=======================
+  select-type-of-service
+========================*/
+.services-section 
+{
+ padding:50px 40px;
+}
+.services-section .select-type-of-service h2
+{
+ font-family: 'Muli-ExtraBold';
+ font-size:22px;
+ margin: 20px 0px;
+ color: #000;
+}
+.services-types
+{
+ display:inline-block;
+ width:100%;
+ margin-top: 20px;
+}
+.services-types .bill-division
+{
+ box-shadow:0px 0px 23px 1px rgba(0, 0, 0, 0.04);
+}
+.services-types .img-section
+{
+ padding:30px;
+}
+.services-types  .content-section
+{
+ padding:30px;
+}
+.services-types a
+{
+ color:#000;
+}
+.services-types a:hover
+{
+ color:#000;
+}
+.services-types a:hover .content-section
+{
+ background-color:#4162f1;
+}
+.services-types a:hover .content-section h3, .services-types a:hover .content-section p
+{
+ color:#fff;
+}
+.services-types a:hover .content-section p span img
+{
+ filter: brightness(0) invert(1);
+}
+.services-types  .content-section h3
+{
+ font-family: 'Muli-ExtraBold';
+ font-size:24px;
+ margin-bottom: 5px;
+ color: #000;
+}
+.services-types  .content-section p
+{
+ font-size:24px;
+ font-family: 'Muli-Regular';
+}
+.select-type-of-service .warning-message
+{
+ background-color:#eafffc;
+ border:1px solid #1bc0a7;
+ border-radius:3px;
+ margin-top:35px;
+}
+.select-type-of-service .warning-message .title h3
+{
+ color: #1bc0a7;
+ padding: 5px 20px;
+ font-size: 18px;
+ border-bottom: 1px solid #b6efe7;
+ font-family: 'Muli-Bold';
+ margin:0px;
+}
+.select-type-of-service .warning-message .title h3 span
+{
+ color:#2ac4ad;
+}
+.select-type-of-service .warning-message .content
+{
+ padding:10px 20px;
+}
+.select-type-of-service .warning-message p
+{
+ border-bottom:1px solid #b6efe7;
+ padding:0px 0px 10px 0px;
+ font-family: 'Muli-Regular';
+}
+.select-type-of-service .warning-message p span
+{
+  font-family: 'Muli-Bold';
+}
+.select-type-of-service .warning-message p:last-child span
+{
+  font-family: 'Muli-Bold';
+  color:#ff0000;
+}
+.select-type-of-service .warning-message p:last-child
+{
+ border-bottom:none;
+}
+/*===========================
+ Electricity-water-gas-Bill
+===========================*/
+.services-section .select-type-of-service h2.electricity
+{
+ font-family: 'Muli-ExtraBold';
+ font-size:22px;
+ margin: 20px 0px;
+ color: #000;
+ display: inline-block;
+}
+.select-type-of-service ul.remaining-billing li 
+{
+ display: inline-block;
+ margin-right: 15px;
+ padding: 7px 30px;
+ border: 2px solid #4162f1;
+ border-radius: 5px;
+}
+.select-type-of-service ul.remaining-billing li:last-child
+{
+ border:none;
+ margin-right: 0px;
+ padding-right: 0px;
+}
+.select-type-of-service ul.remaining-billing li a img
+{
+ margin:0px 6px;
+}
+.select-type-of-service ul.remaining-billing li a, .select-type-of-service ul.remaining-billing li a:hover
+{
+ color:#000;
+ font-family: 'Muli-SemiBold';
+}
+.select-type-of-service .services-list
+{
+ box-shadow:0px 0px 23px 1px rgba(0, 0, 0, 0.04);
+ padding:25px 25px 80px 25px;
+ margin-top:15px;
+}
+.select-type-of-service .services-list.electricity
+{
+ background:url("../img/bulb.png") no-repeat bottom right;
+}
+.select-type-of-service .services-list.gas-bill
+{
+ background:url("../img/gas.png") no-repeat bottom right;
+}
+.select-type-of-service .services-list.water-bill
+{
+ background:url("../img/water.png") no-repeat bottom right;
+}
+.select-type-of-service .services-list .col-sm-4 input, .select-type-of-service .services-list .col-sm-4 .select-mania-inner
+{
+ border-top:none;
+ border-left:none;
+ border-right:none;
+ border-bottom:1px solid #e5e5e5;
+ border-radius:0px;
+ box-shadow:none;
+ font-family: 'Muli-SemiBold';
+}
+.select-type-of-service .services-list .col-sm-4 .error-mssg
+{
+ color: #ff0000;
+ font-size: 15px;
+ font-family: 'Muli-Regular';
+ font-weight: 500;
+}
+.select-type-of-service .services-list .col-sm-4 .mdb-select
+{
+ position:relative;
+ height:55px;
+ border-top:none;
+ border-left:none;
+ border-right:none;
+ border-bottom:1px solid #e5e5e5;
+ border-radius:0px;
+ box-shadow:none;
+ font-family: 'Muli-SemiBold';
+ width:100%;
+}
+.select-type-of-service .services-list .col-sm-4 .mdb-main-label
+{
+ position:absolute;
+ left: 23px;
+ top: 19px;
+ font-family: 'Muli-SemiBold';
+}
+.select-type-of-service .services-list .col-sm-4 input:focus::-webkit-input-placeholder, .select-type-of-service .services-list .col-sm-4 .select-mania .select-mania-inner .select-mania-placeholder:focus
+{
+ font-size: 12px;
+ position: relative;
+ top: -25px; 
+ transition: 0.2s ease-out;
+}
+.select-type-of-service .services-list .col-sm-4 input::-webkit-input-placeholder
+{
+ transition: 0.2s ease-in;
+}
+.select-type-of-service .services-list .col-sm-4 input[type="text"]:focus
+{
+ transition: 0.2s ease-in;
+  border-bottom:1px solid #4261e7;
+}
+/* .select-type-of-service .services-list .col-sm-4 input[type="text"], .select-type-of-service .services-list .col-sm-4 input[type="password"]
+{
+ height: 55px;
+ transition: 0.2s ease-in;
+} */
+.select-type-of-service .submit-back 
+{
+ margin-top:30px;
+}
+.select-type-of-service .submit-back  .btn-default
+{
+ background-color:#cccccc;
+ border:none;
+ border-radius:5px;
+ padding:9px 40px;
+ font-family: 'Muli-Bold';
+ color:#fff;
+ margin-right:10px;
+}
+.select-type-of-service .submit-back  .btn-primary
+{
+ background-color:#4162f1;
+ border:none;
+ border-radius:5px;
+ padding:9px 40px;
+ font-family: 'Muli-Bold';
+ color:#fff;
+}
+
+/*==========================
+       invoice page
+============================*/	
+.invoice-page .invoice-details
+{
+ width:80%;
+ margin:0 auto;
+}   
+.invoice-page .invoice-details img
+{
+ width:200px;
+ margin:0 auto;
+}
+.invoice-page .invoice-details   h3 > img
+{
+ width:25px;
+ margin-right:6px;
+}
+.invoice-page .invoice-details   h3
+{
+ font-family: 'Muli-Bold';
+ font-size: 16px;
+ color: #7680ab;
+ margin-bottom: 15px;
+}
+.invoice-page .invoice-details .invoice-transcation
+{
+ display: inline-block;
+ width: 100%;
+ padding: 30px;
+ border-top: 2px solid #4162f1;
+ margin-top: 20px;
+ box-shadow: 0px 0px 17px 13px rgba(0, 0, 0, 0.1);
+ position:relative;
+}
+.invoice-page .invoice-details .invoice-transcation:before
+{
+ content:"";
+ position:absolute;
+ background: url(../img/background-logo.jpg) no-repeat;
+}
+.invoice-page .invoice-details .invoice-transcation .customer-details .form-group
+{
+ min-height:60px;
+}
+.invoice-page .invoice-details .invoice-transcation .customer-details
+{
+ border-bottom:1px solid #e5e5e5;
+ margin-bottom:20px;
+}
+.invoice-page .invoice-details .invoice-transcation .customer-details:last-child
+{
+ border-bottom:none;
+ margin-bottom:0px;
+}
+.invoice-page .invoice-details .invoice-transcation .customer-details label
+{
+ font-family: 'Muli-Regular';
+ font-size: 14px;
+ color: #666666;
+ font-weight: 100;
+}
+.invoice-page .invoice-details .invoice-transcation .customer-details p
+{
+ font-family: 'Muli-Bold';
+ font-size: 18px;
+ color: #000;
+}
+.invoice-page .invoice-details .invoice-transcation .customer-details p.final-cost
+{
+ color:#4162f1;
+}
+.invoice-page .invoice-details .submit-back
+{
+ text-align: center;
+ padding: 20px 0px;
+}
+.invoice-page .invoice-details .submit-back .btn-default
+{
+ background-color: #cccccc;
+ border: none;
+ border-radius: 5px;
+ padding: 9px 60px;
+ font-family: 'Muli-Bold';
+ color: #fff;
+ margin-right: 10px;
+}
+.invoice-page .invoice-details .submit-back .btn-primary
+{
+ background-color: #4162f1;
+ border: none;
+ border-radius: 5px;
+ padding: 9px 60px;
+ font-family: 'Muli-Bold';
+ color: #fff;
+}
+.services-section.invoice-section
+{
+ background: url(../img/background-logo.jpg) no-repeat center;
+ height: 100%;
+}
+
+
+
+a .PrepaidAH {
+    background:url(../img/PrepaidAK.png);
+    display:block!important;
+    width:35px;
+    height:32px;
+    margin-left: 12px;
+}
+
+a.btnJustifyActive .PrepaidAH, a:hover .PrepaidAH {
+    background:url(../img/PrepaidAH.png);
+    display:block;
+    width:35px;
+    height:32px;
+    margin-left: 12px;
+}
+
+a .PostpaidAH {
+    background:url(../img/PostpaidAK.png);
+    display:block!important;
+    width:35px;
+    height:32px;
+    margin-left: 15px;
+}
+
+a.btnJustifyActive .PostpaidAH, a:hover .PostpaidAH {
+    background:url(../img/PostpaidAH.png);
+    display:block;
+    width:33px;
+    height:32px;
+    margin-left: 15px;
+}
+
+a .DataCardAH {
+    background:url(../img/DataCardAK.png);
+    display:block!important;
+    width:32px;
+    height:33px;
+    margin-left: 23px;
+}
+
+a.btnJustifyActive .DataCardAH, a:hover .DataCardAH {
+    background:url(../img/DataCardAH.png);
+    display:block;
+    width:32px;
+    height:33px;
+    margin-left: 23px;
+}
+
+a .DTHAH {
+    background:url(../img/DTHAK.png);
+    display:block!important;
+    width:33px;
+    height:33px;
+    margin-left: 15px;
+}
+
+a.btnJustifyActive .DTHAH, a:hover .DTHAH {
+    background:url(../img/DTHAH.png);
+    display:block;
+    width:33px;
+    height:33px;
+    margin-left: 15px;
+}
+
+
+
+
+@media (min-width:320px) and (max-width:767px)
+{
+ /*============================
+     Mobile Recharging
+=============================*/
+.mobile-recharging
+{
+ padding:20px 10px;
+}
+.mobile-recharging .online-recharge h3.title
+{
+ font-size:20px;
+}
+.mobile-recharging .online-recharge h3.title span
+{
+ width: 100%;
+ text-align: center;
+ margin-top: 10px;
+}
+.mobile-recharging-options .col-xs-12.plr-4
+{
+ overflow-x: scroll;
+ width: 100%;
+ float: none;
+ padding:0px 15px;
+}
+.mobile-recharging-options .btn-group.btnJustify
+{
+ width:600px;
+}
+.box.browsing-plans .btn-group.btnJustify
+{
+ background-color: #eafffc;
+}
+.mobile-recharging-options .rechargeForm .col-md-3
+{
+ margin-bottom:20px;
+}
+.mobile-recharging-options .tab-content > div > div
+{
+ float:none;
+ width:100%;
+ margin:0px;
+}
+.mobile-recharging-options
+{
+ padding:20px;
+}
+.box.browsing-plans .searching-section .col-md-3
+{
+ margin-bottom:20px;
+}
+.browsing-plans .box-content .tabs-section .btn-group.btn-group-justified a.btn-primary
+{
+ width:auto;
+ font-size:12px;
+ display:inline-block;
+}
+.mobile-recharging .box.browsing-plans .col-xs-12.plr-4
+{
+ width:100%;
+ overflow-x:scroll;
+}
+.mobile-recharging .box.browsing-plans .btnJustify
+{
+ width:710px !important;
+}
+.box.browsing-plans .tabs-section .tab-content
+{
+ width: 100%;
+ overflow-x: scroll;
+ padding: 10px;
+}
+.box.browsing-plans .tabs-section .tab-content .tab-pane
+{
+ width:1000px;
+}
+.mobile-recharging-options .select-text:focus ~ .select-bar:before, .mobile-recharging-options .select-text:focus ~ .select-bar:after
+{
+ width:100%;
+}
+.searching-section .select-text:focus ~ .select-bar:before, .searching-section .select-text:focus ~ .select-bar:after
+{
+ width:100%;
+}
+.browsing-plans .box-content .tabs-section .tab-content .recharge-details table tr td.days span
+{
+ font-size:16px;
+}
+.browsing-plans .box-content .tabs-section .tab-content .recharge-details table tr td.recharge-cost
+{
+ font-size:14px;
+}
+.mobile-recharging-options .rechargeForm a
+{
+ font-size:14px;
+}
+/*============================
+     Mobile Recharging
+=============================*/
+}
+@media (max-width:767px) {
+    /*============================
+     Mobile Recharging
+=============================*/
+    .browsing-plans .box-content .tabs-section .tab-content .recharge-details table {
+        width: 980px;
+    }
+    /*============================
+     Mobile Recharging
+=============================*/
+    @media (min-width:481px) and (max-width:767px) {
+        /*============================
+     Mobile Recharging
+=============================*/
+        .mobile-recharging-options .rechargeForm .btnJustify a {
+            padding: 8px 30px;
+        }
+        /*============================
+     Mobile Recharging
+=============================*/
+    }
+
+    @media (min-width:768px) and (max-width:991px) {
+        /*============================
+     Mobile Recharging
+=============================*/
+        .mobile-recharging-options .rechargeForm a {
+            margin-right: 10px;
+        }
+
+        .mobile-recharging .col-xs-12.col-sm-3 {
+            width: 100%;
+        }
+
+        .browsing-plans .box-content .tabs-section .btn-group.btn-group-justified a.btn-primary {
+            padding: 10px;
+            font-size: 14px;
+            width: auto;
+        }
+        /*============================
+     Mobile Recharging
+=============================*/
+    }
+
+    @media (min-width:992px) and (max-width:1199px) {
+        /*============================
+     Mobile Recharging
+=============================*/
+        .mobile-recharging-options .rechargeForm .col-md-3, .mobile-recharging-options .rechargeForm .col-md-4 {
+            width: 50%;
+        }
+
+        .mobile-recharging .warning-message p {
+            font-size: 13px;
+        }
+
+        .mobile-recharging .warning-message .title h3 {
+            font-size: 16px;
+        }
+        /*============================
+     Mobile Recharging
+=============================*/
+    }
+
+    @media (max-width:1199px) {
+        /*============================
+     Mobile Recharging
+=============================*/
+        .browsing-plans .box-content .tabs-section .col-xs-12.plr-4 {
+            width: 100%;
+            overflow-x: scroll;
+        }
+
+        .mobile-recharging .box.browsing-plans .btnJustify {
+            width: 1300px;
+        }
+
+        .browsing-plans .box-content .tabs-section .btn-group.btn-group-justified a.btn-primary {
+            padding: 10px;
+        }
+
+        .browsing-plans .box-content .tabs-section .tab-content .recharge-details table {
+            width: 1199px;
+        }
+
+        .mobile-recharging .warning-message .content {
+            padding: 10px;
+        }
+        /*============================
+     Mobile Recharging
+=============================*/
+    }
+
+    @media (min-width:1200px) and (max-width:1380px) {
+        /*============================
+     Mobile Recharging
+=============================*/
+        .mobile-recharging-options .rechargeForm .col-md-4 {
+            width: 50%;
+        }
+
+        .browsing-plans .box-content .tabs-section .tab-content .recharge-details table {
+            width: 1250px;
+        }
+
+        .mobile-recharging .box.browsing-plans .btnJustify {
+            width: 1300px;
+        }
+
+        /*============================
+     Mobile Recharging
+=============================*/
+    }
+
+    @media (min-width:1200px) and (max-width:1570px) {
+        /*============================
+     Mobile Recharging
+=============================*/
+        .browsing-plans .box-content .tabs-section .col-xs-12.plr-4 {
+            width: 100%;
+            overflow-x: scroll;
+        }
+
+        .mobile-recharging .box.browsing-plans .btnJustify {
+            width: 100%;
+            background-color: #eafffc;
+        }
+
+        .browsing-plans .box-content .tabs-section .btn-group.btn-group-justified a.btn-primary {
+            display: inline-block;
+            width: auto;
+        }
+    }
+}
+
+
+
