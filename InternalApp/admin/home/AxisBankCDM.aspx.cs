@@ -43,7 +43,7 @@ namespace InternalApp.admin.home
 
         protected void rbtnChooseType1_CheckedChanged(object sender, EventArgs e)
         {
-            btn_search.Text = "Unmapping";
+            btn_search.Text = "Unmapping"; //Unmapping
             hdnValue.Value = "2";
             ddlAccountType.SelectedItem.Value = "0";
             txtCardNo.Text = "";
